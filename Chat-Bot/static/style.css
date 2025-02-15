@@ -1,0 +1,83 @@
+/* Body styling with a background image */
+body {
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Chatbox container */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+/* Chatbox styling */
+.chat-box {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Message styling */
+.chat-box p {
+    margin: 5px 0;
+}
+
+/* Input group styling */
+.input-group {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+/* Input field styling */
+#user-input {
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Button styling */
+.btn-primary {
+    border-radius: 25px;
+    background-color: #007bff;
+    border: none;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Card header styling */
+.card-header {
+    background-color: rgba(0, 123, 255, 0.85);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Card body styling */
+.card-body {
+    background-color: #fff;
+    padding: 20px;
+}
